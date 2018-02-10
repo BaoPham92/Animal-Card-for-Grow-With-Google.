@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    padding: 0 0px 0 0px;
+    margin: 6%;
+}
+
+h3 {
+    background-color: ghostwhite;
+}
+
+div {
+    width: 350px;
+    border-radius: 5px;
+}
+
+.border {
+    border: solid 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card {
+    border: solid grey .5px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.description {
+    border: solid grey 1px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+}
+
+.imgScroll {
+    background: url('Sprites/Abstract.jpg');
+    animation: 100s scroll infinite linear;
+    z-index: -1;
+}
+
+@keyframes scroll {
+    100% {
+        background-position: 0px -9999px;
+    }
+}
